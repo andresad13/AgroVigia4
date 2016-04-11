@@ -26,6 +26,8 @@ public class MainActivity extends Activity implements LocationListener {
     private static String urlString;
 
 
+    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
