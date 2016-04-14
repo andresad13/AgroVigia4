@@ -13,6 +13,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,7 +27,7 @@ public class MainActivity extends Activity implements LocationListener {
     private static String urlString;
 
 
-    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,6 +87,7 @@ public class MainActivity extends Activity implements LocationListener {
     }
 
 
-
-    // Activity end
+    public void Reg_User(View view){
+        
+    }
 }
