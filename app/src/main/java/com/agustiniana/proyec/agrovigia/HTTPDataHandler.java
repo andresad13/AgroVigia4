@@ -36,7 +36,7 @@ public class HTTPDataHandler {
                 urlConnection.disconnect();
             }
             else
-            { // Do something
+            {
             }
         }catch (MalformedURLException e){
             e.printStackTrace();
